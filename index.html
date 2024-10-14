@@ -1,19 +1,76 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="minimum-scale=1, initial-scale=1, width=device-width"
-    />
-    <title>Invalid URL!</title>
-  </head>
-  <body>
-    <p>Short URL is invalid! (Or you have been spamming the site too much)</p>
-    <p>
-      <a href="https://www.stjohn.edu.et/">
-        Go home.
-      </a>
-    </p>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title> 404 Error | St John Baptist De La Salle Catholic School</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description"
+    content="St John Baptist De La Salle Catholic School, Addis Ababa">
+  
+  <meta name="author" content="Aaron Kebede">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://old.stjohn.edu.et/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://old.stjohn.edu.et/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="https://old.stjohn.edu.et/plugins/animate/animate.css">
+  
+  <link rel="stylesheet" href="https://old.stjohn.edu.et/plugins/venobox/venobox.css">
+  
+  <link rel="stylesheet" href="https://old.stjohn.edu.et/plugins/themify-icons/themify-icons.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://old.stjohn.edu.et/scss/main.39a92863184ba4ea9990e2082bf7fd67c858263e3dd67f677d1add7a1c5de28ebcc1a01478d007a95bb116ce25df5a23961347c553b8891e649dbc716290c204.css" integrity="sha512-OakoYxhLpOqZkOIIK/f9Z8hYJj491n9nfRrdehxd4o68waAUeNAHqVuxFs4l31ojlhNHxVO4iR5knbxxYpDCBA==" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://old.stjohn.edu.et/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://old.stjohn.edu.et/images/favicon.png" type="image/x-icon">
+
+<body>
+  <div id="wrapper" class="wrapper">
+
+    <div class="container pt-9 pb-9 pt-md-13 pb-md-13">
+      <div class="row justify-content-center align-content-between">
+        <div class="col-9 text-center">
+		</br> </br>
+<br>
+<h3> Error <span id="countdown">1</span> seconds. </h3>
+<br>
+ Going home :)
+<br>		
+<!-- JavaScript part -->
+<script type="text/javascript">
+    
+    // Total seconds to wait
+    var seconds = 1;
+    
+    function countdown() {
+        seconds = seconds - 1;
+        if (seconds < 0) {
+            // Change your redirection link here
+            window.location = "https://google.stjohn.edu.et";
+        } else {
+            // Update remaining seconds
+            document.getElementById("countdown").innerHTML = seconds;
+            // Count down using javascript
+            window.setTimeout("countdown()", 1000);
+        }
+    }
+    
+    // Run countdown function
+    countdown();
+    
+</script>
+           <!-- begin vercel analytics -->
+  <script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+  <!-- end vercel analytics -->
   </body>
 </html>
